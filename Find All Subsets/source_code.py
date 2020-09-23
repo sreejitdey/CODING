@@ -7,7 +7,10 @@ def printSubsets(myList):
             if i & (1 << j):
                 subsets.append(myList[j])
         finalList.append(subsets)
-    return(finalList)
+    for i in finalList:
+        for j in i:
+            print(j, end = ' ')
+        print()
 
 L = list(map(int, input().split()))
-print(printSubsets(L))
+printSubsets(L)
