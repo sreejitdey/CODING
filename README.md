@@ -1,1 +1,1 @@
-COMPETITIVE CODING COLLECTIONS
+Coding collections
